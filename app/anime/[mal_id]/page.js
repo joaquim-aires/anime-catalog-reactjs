@@ -6,7 +6,7 @@ import axios from 'axios';
 import { Merriweather_Sans } from 'next/font/google'
 
 const inter = Merriweather_Sans({ subsets: ['latin'] })
-export default function AnimeDetails() {
+export default function AnimeDetails({ params }) {
 
 
   const [details, setDetails] = useState({
